@@ -1,0 +1,77 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+*.iws
+
+# VS Code (optional)
+.vscode/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Logs / runtime
+# =========================
+*.log
+logs/
+*.pid
+
+# =========================
+# Environment files / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Docker / Compose
+# =========================
+docker-compose.override.yml
+
+# Local volumes / db dumps (if any)
+*.sql.gz
+*.dump
+*.bak
+
+# =========================
+# Tooling caches
+# =========================
+node_modules/
